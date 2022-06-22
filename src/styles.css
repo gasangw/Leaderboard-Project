@@ -1,2 +1,69 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;   
+    padding-left: 10px; 
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(94, 85, 74);
+    font-weight: 700;
+}
+
+.heading {
+    margin-top: 0.5rem;
+    justify-content: baseline;
+    display: flex; 
+    gap: 0.3rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+ font-weight: 600; 
+ padding-right: 2rem;  
+}
+
+.list-scores {
+    width: 16%;
+    border: 4px solid #000;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    line-height: 28px;
+}
+
+.list-scores > li {
+    margin-left: -29px;
+}
+
+.btn {
+    height: 25px;
+    margin-top: 16px;
+}
+
+.addSection {
+   align-self: center;
+   margin-top: -16rem;
+   display: flex;
+   flex-direction: column;
+   margin-left: -20rem;
+}
+
+.btn-add {
+    width: 5rem;
+    padding: 5px;
+    margin-left: 6.8rem;
+}
+
+input {
+    padding: 8px;
+}
+
 
 
