@@ -21,6 +21,7 @@
   "homepage": "https://github.com/gasangw/Leaderboard-Project#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.73.0",
