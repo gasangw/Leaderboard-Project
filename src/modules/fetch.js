@@ -1,8 +1,8 @@
-import { baseUrl, scorePlaceholder } from './variables.js';
+import { scorePlaceholder } from './variables.js';
 
 const fetchData = () => {
   scorePlaceholder.innerHTML = '';
-  fetch(baseUrl)
+  fetch()
     .then((res) => res.json())
     .then((data) => {
       data.result.forEach((data) => {

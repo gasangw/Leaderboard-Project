@@ -1,10 +1,8 @@
-import { baseUrl } from './variables.js';
-
 class Data {
   add(prop) {
     this.prop = prop;
 
-    fetch(baseUrl, {
+    fetch({
       method: 'POST',
       body: JSON.stringify(this.prop),
       headers: {

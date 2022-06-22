@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import './styles.css';
 import handleSubmit from './modules/form.js';
 import { form, refreshBtn } from './modules/variables.js';

@@ -10,7 +10,7 @@ const getUser = () => {
     user: userName,
     score: userScore,
   };
-  
+
   return userInput;
 };
 
