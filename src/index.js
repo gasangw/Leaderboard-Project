@@ -1,12 +1,8 @@
 import _ from 'lodash';
+import './styles.css';
+import handleSubmit from './modules/form.js';
+import { form, refreshBtn } from './modules/variables.js';
+import displayScore from './modules/async.js';
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+refreshBtn.addEventListener('click', displayScore);
+form.addEventListener('submit', handleSubmit);
