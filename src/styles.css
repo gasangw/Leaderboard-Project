@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: bisque;
-  font-family: cursive;
+  background-color: rgb(216, 56, 216);
+  font-family: sans-serif;
 }
 
 main {
@@ -81,7 +81,7 @@ li {
 }
 
 ul {
-  width: 60%;
+  width: 65%;
   border: 2px solid #000;
   margin-top: 20px;
 }
